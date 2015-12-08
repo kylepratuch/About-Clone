@@ -49,3 +49,38 @@ body {
   width:100%;
 }
 /* End Banner */
+
+/* ====== Text and photos ====== */
+
+.text-and-photos h2{
+  font-family:'Montserrat', sans-serif;
+  text-transform:uppercase;
+}
+/* Whois */
+.whois{
+  width:50%;
+  float:left;
+}
+
+.whois p{
+  font-family: 'Noto Serif', serif;
+  font-size: .9em;
+}
+
+/* Photos */
+.photos{
+  width:50%;
+  float:right;
+}
+
+.photos ul{
+  margin-left:-40px;
+}
+
+.photos li{
+  display:inline;
+}
+
+.photos img{
+  max-width:100px;
+}
