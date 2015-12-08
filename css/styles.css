@@ -1,0 +1,51 @@
+/* Main Styling */
+body {
+  background-color: #faf9f4;
+}
+
+.wrapper {
+  margin-left:15px;
+  margin-right:15px;
+  margin-top:50px;
+  margin-bottom:40px;
+
+}
+
+/* Header styling */
+.logo {
+  text-decoration:none;
+  font-family: 'Amatic SC', cursive;
+  font-size:2em;
+  font-weight:bold;
+  color:black;
+}
+
+.nav {
+  float:right;
+  width:50%;
+  text-align:right;
+}
+
+.nav li {
+  display:inline;
+  font-family:'Montserrat', sans-serif;
+  font-size:.9em;
+  text-transform: uppercase;
+  margin-left:10px;
+}
+
+.nav li a {
+  text-decoration:none;
+  color:black;
+}
+
+.nav li a:hover{
+  color:#4827f9;
+}
+/* End Header */
+
+/* Banner */
+.banner{
+  width:100%;
+}
+/* End Banner */
