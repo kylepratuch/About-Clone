@@ -1,6 +1,9 @@
 /* Main Styling */
 body {
   background-color: #faf9f4;
+  max-width:1200px;
+  width:100%;
+  margin:auto;
 }
 
 .wrapper {
@@ -8,7 +11,6 @@ body {
   margin-right:15px;
   margin-top:50px;
   margin-bottom:40px;
-
 }
 
 /* Header styling */
@@ -73,8 +75,11 @@ body {
   float:right;
 }
 
+.photos h2{
+}
+
 .photos ul{
-  margin-left:-40px;
+  margin-bottom:-15px;
 }
 
 .photos li{
@@ -82,5 +87,5 @@ body {
 }
 
 .photos img{
-  max-width:100px;
+  max-width:22.5%;
 }
