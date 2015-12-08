@@ -123,3 +123,12 @@ body {
 .photos img{
   max-width:22.5%;
 }
+
+/* Linebreak */
+.linebreak{
+  clear:both;
+}
+
+.linebreak hr{
+  margin-top:10px;
+}
