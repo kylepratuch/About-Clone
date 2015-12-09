@@ -4,6 +4,8 @@ body {
   max-width:1200px;
   width:100%;
   margin:auto;
+  padding-left:1em;
+  padding-right:1em;
 }
 
 .wrapper {
@@ -11,6 +13,7 @@ body {
   margin-right:15px;
   margin-top:50px;
   margin-bottom:40px;
+  /*border:1px solid red;*/
 }
 
 /* Header styling */
@@ -53,6 +56,11 @@ body {
 /* End Banner */
 
 /* ====== Text and photos ====== */
+.text-and-photos{
+  /*border:1px solid black;*/
+  width:100%;
+  margin:auto;
+}
 
 .text-and-photos h2{
   font-family:'Montserrat', sans-serif;
@@ -101,6 +109,12 @@ body {
 }
 
 /* Photos */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .photos{
   width:50%;
   float:right;
@@ -125,10 +139,14 @@ body {
 }
 
 /* Linebreak */
-.linebreak{
-  clear:both;
+.footer{
+  margin-top:2em;
+  margin-bottom:5em;
+  width:100%;
 }
 
-.linebreak hr{
-  margin-top:10px;
+.line{
+  clear:both;
+  border:1px solid darkgray;
+  width:100%;
 }
